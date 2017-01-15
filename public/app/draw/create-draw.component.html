@@ -1,0 +1,23 @@
+<div class="container">
+    
+        <div>
+            <div class="form-group"><label>Name</label><input class="form-control" [(ngModel)]="drawDetails.name" /></div>
+            <div class="form-group"><label>Description</label><input class="form-control" [(ngModel)]="drawDetails.description" /> </div>
+            <div class="form-group"> <label>DrawDate</label><input class="form-control" [(ngModel)]="drawDetails.drawDate" /></div>
+            <div class="form-group"> <label>Amount of primary numbers</label><input class="form-control" [(ngModel)]="drawDetails.primaryRules.amountOfNumbers"
+                /></div>
+            <div class="form-group"> <label>Upper Range</label><input class="form-control" [(ngModel)]="drawDetails.primaryRules.upperRange" /> </div>
+            <div class="form-group"> <label>Lower Range</label><input class="form-control" [(ngModel)]="drawDetails.primaryRules.lowerRange" /> </div>
+            <div class="form-group"> <label>Amount of secondary numbers</label><input class="form-control" [(ngModel)]="drawDetails.secondaryRules.amountOfNumbers"
+                /></div>
+            <div class="form-group"> <label>Upper Range</label><input class="form-control" [(ngModel)]="drawDetails.secondaryRules.upperRange" />                </div>
+            <div class="form-group"> <label>Lower Range</label><input class="form-control" [(ngModel)]="drawDetails.secondaryRules.lowerRange" />                </div>
+        </div>
+
+    </div>
+
+      
+<div>
+    <button class="btn btn-primary" (click)="createDraw()">Create</button>
+</div>
+

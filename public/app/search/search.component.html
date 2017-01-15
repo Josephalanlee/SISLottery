@@ -1,0 +1,8 @@
+<label>Search:</label><input class="form-group" [(ngModel)] = "searchTerm" />
+<button class="btn btn-primary" (click) = "search()" >Search</button>
+
+<table class="table" *ngIf="searchResults">
+<tr *ngFor="let result of searchResults">
+    <td><a routerLink="/enterresults/{{result.name}}">{{result.name}}</a></td>
+</tr>
+</table>
