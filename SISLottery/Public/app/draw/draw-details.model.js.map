@@ -1,0 +1,1 @@
+{"version":3,"file":"draw-details.model.js","sourceRoot":"","sources":["draw-details.model.ts"],"names":[],"mappings":";AACA;IAAA;IAKA,CAAC;IAAD,qBAAC;AAAD,CAAC,AALD,IAKC;AALY,wCAAc;AAO3B;IAEI;QAEI,IAAI,CAAC,YAAY,GAAG,IAAI,cAAc,EAAE,CAAC;QACzC,IAAI,CAAC,cAAc,GAAG,IAAI,cAAc,EAAE,CAAC;IAC/C,CAAC;IAQL,uBAAC;AAAD,CAAC,AAdD,IAcC;AAdY,4CAAgB"}
